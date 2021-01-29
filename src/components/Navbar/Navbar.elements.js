@@ -5,7 +5,7 @@ import {Container} from '../../globalStyles'
 
 export const Nav = styled.nav`
     background: #101522;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -22,8 +22,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
-    height:80px;
-
+    height:70px;
     ${Container}
 `;
 
@@ -65,9 +64,9 @@ text-align: center;
     dispay:flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     position: absolute;
-    top:80px;
+    top:70px;
     left: ${({click}) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
@@ -76,11 +75,11 @@ text-align: center;
 `;
 
 export const  NavItem = styled.li`
-height: 80px;
-border-bottom: 2px solid transparent;
+height: 70px;
+border-bottom: 4px solid transparent;
 
 &:hover{
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 4px solid #4b59f7;
 }
 
 @media sceren and (max-width: 960px){
@@ -109,26 +108,4 @@ height: 100%;
         transition: all 0.3s ease;
     }
 }
-`;
-
-export const NavItemBtn = styled.li`
-@media screen and (max-width: 960px){
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    height:120px;
-}
-`;
-
-export const NavBtnLink = styled(Link)`
-display:flex;
-justify-content: center;
-align-items: center;
-text-decoration:none;
-padding: 8px 16px;
-height:100%;
-width: 100%;
-border:none;
-outline:none;
 `;

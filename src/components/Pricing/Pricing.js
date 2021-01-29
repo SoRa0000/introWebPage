@@ -23,22 +23,22 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>Бидний үйлчилгээ</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
+                <PricingCardPlan>Цахилгаан Тоолуур</PricingCardPlan>
                 <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardLength>нэмэлт мэдээлэл</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Дэлгэрэнгүй</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -46,15 +46,15 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
+                <PricingCardPlan>Усны тоолуур</PricingCardPlan>
                 <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardLength>нэмэлт мэдээлэлth</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Дэлгэрэнгүй</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -62,15 +62,15 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
+                <PricingCardPlan>Суурилуулалт</PricingCardPlan>
                 <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardLength>нэмэлт мэдээлэл</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
+                  <PricingCardFeature>нэмэлт мэдээлэл</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Дэлгэрэнгүй</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

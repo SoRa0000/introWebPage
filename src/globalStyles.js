@@ -1,12 +1,12 @@
 import styled, {createGlobalStyle} from 'styled-components'
-
+import {FaArrowAltCircleUp} from 'react-icons/fa'
 
 const GlobalStyle = createGlobalStyle`
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 `
 
@@ -43,6 +43,28 @@ export const Button = styled.button`
        width: 100%;
         
     }
+`;
+
+export const ScrollTop = styled(FaArrowAltCircleUp)`
+position: fixed;
+width:100%;
+bottom: 20px;
+height: 50px;
+left: 45%;
+z-index: 1000;
+cursor: pointer;
+animation: ease 0.3s;
+transition: opacity 0.4s;
+opacity: 0.5;
+color: #545C6E;
+&:hover{
+    opacity:1;
+}
+
+@media screen and (max-width:820px){
+    left: 40%;
+    height: 30px
+}
 `;
 
 export default GlobalStyle;

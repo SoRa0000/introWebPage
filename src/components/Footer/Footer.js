@@ -26,20 +26,19 @@ const Footer = () => {
         <FooterContainer>
             <FooterSubscription>
                 <FooterSubHeading>
-                    Join our exclusive membership to reciece the latest news and trends
+                    Манай бүтээгдэхүүнийг сонирхож байвал бидэнтэй холбоо барина уу.
                 </FooterSubHeading>
                 <FooterSubText>
-                    You can unsubscribe at any time
                 </FooterSubText>
                 <Form>
                     <FormInput name="email" type="email" placeholder="Your Email" />
-                        <Button fontBig>Subscribe</Button>
+                        <Button fontBig>Мэдээлэл авах</Button>
                 </Form>
             </FooterSubscription>
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About Us</FooterLinkTitle>
+                        <FooterLinkTitle>Бидний тухай</FooterLinkTitle>
                         <FooterLink to='/sign-up'>How it works</FooterLink>
                         <FooterLink to=''>Testimonials</FooterLink>
                         <FooterLink to=''>Careers</FooterLink>
@@ -47,7 +46,7 @@ const Footer = () => {
                         <FooterLink to=''>Terms of Services</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                        <FooterLinkTitle>Холбоо барих</FooterLinkTitle>
                         <FooterLink to='/sign-up'>How it works</FooterLink>
                         <FooterLink to=''>Testimonials</FooterLink>
                         <FooterLink to=''>Careers</FooterLink>
@@ -57,7 +56,7 @@ const Footer = () => {
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>Videos</FooterLinkTitle>
+                        <FooterLinkTitle>Бичлэг</FooterLinkTitle>
                         <FooterLink to='/sign-up'>How it works</FooterLink>
                         <FooterLink to=''>Testimonials</FooterLink>
                         <FooterLink to=''>Careers</FooterLink>
@@ -65,7 +64,7 @@ const Footer = () => {
                         <FooterLink to=''>Terms of Services</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>Social Media</FooterLinkTitle>
+                        <FooterLinkTitle>Цахим хаяг</FooterLinkTitle>
                         <FooterLink to='/sign-up'>How it works</FooterLink>
                         <FooterLink to=''>Testimonials</FooterLink>
                         <FooterLink to=''>Careers</FooterLink>
